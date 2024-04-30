@@ -1,0 +1,81 @@
+h1{color: rgb(7, 7, 7);text-decoration: underline;}
+#test1{color: rgb(10, 10, 10);}
+#test2{float: right;}
+h1{font-family:system-ui;}
+#test1{font-family: system-ui;}
+body{background-image: url(Screenshot\ \(237\).png);background-size: contain;}
+#test3{color: red;}
+
+
+    
+
+
+h1 {
+    text-align: center;
+}
+
+table {
+    width: 50%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+#test4{font-family: system-ui;font-size:x-large }
+#test5{float: right;position:relative;bottom:120px;}
+#test6{float: right;position: relative;bottom:120px;}
+#test7{font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.eggMealsList {
+    list-style-type: none;
+}
+
+.eggMealsList li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+    
+
+
+.eggMealsList li:hover {
+    background-color: #f2f2f2;
+    cursor: pointer;
+
+
+     
+        font-family: Arial, sans-serif;
+       
+     }
+
+
+
+     #test9 {
+        font-family: Arial, sans-serif;
+        
+        
+    }
+    
+    #test8 {
+        text-align: left;
+    }
+    
+    #eggFacts { color: #141414;
+        max-width: 600px;
+
+    }
+    #test20{float: left;font-size: x-large;}
+    #test13{float: right;}
+    #test25{position: absolute;top: 1690px;}

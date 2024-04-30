@@ -1,0 +1,259 @@
+:root {
+    --primary-color: #333;
+    --secondary-color: #fff;
+    --background-color: #f9f9f9;
+    --border-radius: 8px;
+    --box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    --margin-bottom: 20px;
+    --margin-right: 20px;
+    --padding: 20px;
+    --font-family: "Open Sans", sans-serif;
+    --line-height: 1.6;
+}
+
+body {
+    font-family: var(--font-family);
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-color);
+    color: var(--primary-color);
+    line-height: var(--line-height);
+    background-image: url(meat.jpg);
+    background-size: contain;
+    background-position: left;
+    font-size: 16px;
+}
+
+.container,
+header,
+section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: var(--padding);
+}
+
+header,
+nav {
+    background-color: var(--primary-color);
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: var(--secondary-color);
+    text-decoration: none;
+    padding: 10px;
+    transition: all 0.3s ease;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+    border-radius: 4px;
+}
+
+section {
+    margin-bottom: var(--margin-bottom);
+    background-color: var(--secondary-color);
+    box-shadow: var(--box-shadow);
+    border-radius: var(--border-radius);
+    overflow: hidden;
+}
+
+h1,
+h2,
+h3 {
+    color: white;
+    font-size: 32px;
+}
+
+p,
+ul,
+dl {
+    margin-bottom: var(--margin-bottom);
+    font-size: 18px;
+}
+
+ul,
+dl {
+    padding-left: var(--padding);
+}
+
+a:hover {
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+
+.image {
+    float: right;
+    width: 40%;
+    margin-left: var(--padding);
+    overflow: hidden;
+}
+
+.image img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+@media (max-width: 768px) {
+    .image {
+        float: none;
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: var(--margin-bottom);
+    }
+    .image img {
+        border-radius: 0;
+    }
+}
+
+.nutrition-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border-radius: var(--border-radius);
+    overflow: hidden;
+    box-shadow: var(--box-shadow);
+}
+
+.nutrition-table caption {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.nutrition-table th,
+.nutrition-table td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+    font-size: 18px;
+}
+
+.nutrition-table th {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+.nutrition-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.nutrition-table td.total {
+    font-weight: bold;
+    background-color: #f5f5f5;
+}
+
+#scroll-to-top {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+    padding: 10px;
+    border: none;
+    border-radius: 50%;
+    background-color: rgb(0, 148, 116);
+    color: var(--secondary-color);
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#scroll-to-top:hover {
+    background-color: #000703;
+}
+
+.additional-links {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.additional-links p {
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.additional-links ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.additional-links li {
+    margin-bottom: 10px;
+}
+
+.additional-links a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.additional-links a:hover {
+    color: #007bff;
+}
+
+figcaption {
+    font-style: italic;
+    font-size: 16px;
+    color: #666;
+    text-align: center;
+    margin-top: 8px;
+}
+.c1,
+.c2 {
+    text-align: center;
+    margin-bottom: 10px;
+    display: block;
+}
+#video {
+    margin-bottom: 40px;
+  }
+  
+  #video h2 {
+    text-align: center;
+    color: var(--secondary-color);
+  }
+  
+  video {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  footer {
+    margin-top: 50px;
+    color: #fff; /* Set text color to white */
+    font-size: 14px;
+}
+.circle-container {
+    width: 100%; /* Adjust width and height as needed */
+    height: 100%;
+    border-radius: 50%; /* Make the container circular */
+    overflow: hidden; /* Clip content to the rounded shape */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+.circle-container img {
+    display: block;
+    max-width: 100%; /* Ensure the image maintains its aspect ratio */
+    max-height: 100%; /* Ensure the image maintains its aspect ratio */
+    border-radius: 50%; /* Ensure the image is circular */
+}
