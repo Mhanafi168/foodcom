@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(oatmealenh.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+
+}
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+}
+nav ul li a:hover {
+    color: #CC7722; /* Orange hover color */
+}
+.row{
+    display: flex;
+    height: 60%;
+    align-items: center;
+
+}
+.col{
+    flex-basis: 50%;
+}
+h1{
+    color: #CC7722;
+    font-size: 110px;
+}
+p{
+    color: #fff;
+    font-size: 18px;
+    line-height: 25px;
+}
+button{
+    width: 180px;
+    color: #000;
+    font-size: 17px;
+    padding: 12px 0;
+    background: #fff;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+}
+button a {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit text color from parent (button) */
+}
+
+button a:hover {
+    color: orange; /* Change text color on hover */
+}
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+.card1{
+    background-image: url(GettyImages-1170856565.webp);
+}
+.card2{
+    background-image: url(FruitPizza-6.jpg);
+}
+.card3{
+    background-image: url(baked-oatmeal-3.jpg);
+}
+.card4{
+    background-image: url(oatmealenh.jpg);
+}
+.card:hover{
+    transform: translateY(-10px);
+    transition: 0.5s;
+}
+h4{
+    color: #fff;
+    text-shadow: 0 0 5px #999;
+}
+.card p{
+    text-shadow: 0 0 15px #000;
+    font-size: 11px;
+}
