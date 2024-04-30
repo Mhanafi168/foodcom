@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+
+body{
+background-image:  linear-gradient(to right,#01022d, #000);
+height: 100vh;
+display: flex;
+justify-content: center;
+background-size: cover;
+background-repeat: no-repeat;
+background-image: url(tyy.jpg);
+background-size: cover;
+background-attachment: fixed;
+background-size: 2000px;
+}
+.test{
+background-image: url();
+background-position: center;
+width: 90%;
+height: 640px;
+background-repeat: no-repeat;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+ 
+}
+ul{
+
+    width: 60%;
+list-style-type: none;
+display: flex;
+justify-content: space-between;
+
+}
+.logo{
+   width: 50%;
+text-decoration: none;
+text-transform: uppercase;
+color: white;
+font-size: 50px;
+
+}
+ul  a{
+    border-bottom: 2px solid transparent;
+}
+ul a:hover{
+    border-bottom: 2px solid white;
+}
+.boo{
+    
+    width: 40%;
+}
+boo{
+    width: 50%;
+    padding: 30px;
+    margin-top: 50px;
+}
+.boo h2{
+   font-size: 100px;
+   text-transform: uppercase;
+   color: white;
+}
+.boo p{
+
+    color: white;
+    letter-spacing: 3px;
+    width: 350px;
+  padding: 30px;
+  margin-top: -100px;
+}
+.boo button{
+    font-size: 30px;
+    padding: 6px 10px;
+    border-radius: solid 2px transparent;
+    cursor: pointer;
+    margin-top: -80px;
+    margin-left: 30px;
+}
+.boo button:hover{
+    background-color: transparent;
+    color: white;
+}
+
+div h1{
+  
+    color:  white;
+   
+    
+}
+div p{
+    color:  white;
+    width: 400px;
+    font-size: larger;
+    text-align: center;
+}
+
+body vide  {
+   align-items: center;
+}
+table{
+    color: rgb(234, 16, 16);
+    font-weight: 750;
+    font-size: x-large;
+}
+h2{
+    color: aqua;
+}
+.div nono{
+    padding: 50px;
+    margin: 30px;
+}
+.bts{
+    padding: 10px 20px;
+    border: 2px solid var(--main-color);
+    border-radius: 40px;
+    color: var(--main-color);
+    font-weight: 1000;
+
+}
+
+.bts:hover{
+    letter-spacing: 2px;
+    color: blue;
+    background: var(--main-color);}
+
+
